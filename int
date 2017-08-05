@@ -1,0 +1,10 @@
+
+    numCount=[]
+    for item in list:
+        index=0
+        sublist = item.split()
+        for subitem in sublist:
+            if subitem.isdigit():
+                index +=1
+        numCount.append(index)
+    print(numCount)
